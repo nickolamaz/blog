@@ -23,6 +23,8 @@ tags:
 Write your posts in normal Markdown. If you need images, put them in `assets/images` and link them
 in the Markdown.
 
+If you'd like to attribute the post to an author, add an entry to `_data/authors.yml` with a name (e.g. `Foo Bar`) and then add `author: Foo Bar` to the metadata header section of the post.
+
 ## Testing Locally
 
 Make sure you have Ruby 2.7 installed (GitHub pages apparently doesn't work with Ruby 3.0 as of 2021-08-24).
