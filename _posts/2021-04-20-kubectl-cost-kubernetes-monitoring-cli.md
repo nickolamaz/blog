@@ -8,6 +8,7 @@ categories:
 tags:
   - cost monitoring
   - Kubecost
+author: Michael Dresser
 ---
 
 If you're terminal-loving engineers using Kubernetes like us, kubectl is your constant companion. That's why the Kubecost team built a new CLI for interacting with Kubernetes cost data. Today, we’re announcing [kubectl cost](https://github.com/kubecost/kubectl-cost), an open-source extension that fits directly into your workflow.
