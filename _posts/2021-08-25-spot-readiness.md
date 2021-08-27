@@ -1,5 +1,5 @@
 ---
-title: "Identify spot-ready Kubernetes workloads with Kubecost"
+title: "A guide to spot-readiness in Kubernetes"
 description: "Kubecost's Spot-Readiness Checklist can evaluate all of your Kubernetes workloads for readiness to run on spot nodes, potentially saving up to 90%!"
 date: 2021-08-25T8:00:00-04:00
 canonical_url: "https://blog.kubecost.com/blog/spot-readiness"
@@ -11,7 +11,7 @@ tags:
 author: Michael Dresser and Alex Thilen
 ---
 
-The Kubecost Spot-Readiness Checklist investigates your public cloud Kubernetes workloads to identify candidates for scheduling on spot instance types, which can save you up to 90% on cloud resource costs. Kubecost automatically performs a series of checks on your AWS (EKS), Azure (AKS), and Google Cloud (GKE) clusters using your workload configurations to determine readiness. It then estimates the savings impact from making the transition to Spot.
+Using spot nodes in your Kubernetes cluster can be intimidating due to their lack of availability guarantees. Kubecost’s Spot-Readiness Checklist is here to give you more confidence: the checklist investigates your public cloud Kubernetes workloads to identify candidates for safe scheduling on spot instance types, which can save you up to 90% on cloud resource costs. Kubecost automatically performs a series of checks on your AWS (EKS), Azure (AKS), and Google Cloud (GKE) clusters using your workload configurations to determine readiness. It then estimates the savings impact from making the transition to Spot.
 
 ![Splitting Kubernetes workloads by spot-readiness](/assets/images/spot-readiness-split.png){: .align-center}
  
