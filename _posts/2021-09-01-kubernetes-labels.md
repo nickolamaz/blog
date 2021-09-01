@@ -31,7 +31,7 @@ To help organize cluster resources, Kubernetes provides two ways to tag metadata
 
 ### 1. Via Labels
 
-Labels are key-value pairs used to attach **identifying** metadata to Kubernetes objects. Kubernetes provides built-in support for querying objects via labels and applying bulk operations on the subset selected. Labels look like this:
+Labels are key-value pairs used to attach **identifying** metadata to Kubernetes objects. Kubernetes provides built-in support for querying objects via labels and applying bulk operations on the subset selected. Kubernetes labels are commonly used for sharing information with other colleagues. For example, you may use an annotation to record an owner identifier for the person responsible for a pod/deployment. Labels look like this:
 
 ```
 "metadata": {
@@ -45,7 +45,7 @@ Labels are key-value pairs used to attach **identifying** metadata to Kubernetes
 
 ### 2. Via Annotations
 
-These are key-value pairs used to attach **non-identifying** metadata to objects. However, unlike labels, annotations are not meant for querying or applying operations to a subset of Kubernetes objects. Instead, Kubernetes annotations are meant for sharing information with other colleagues. For example, you may use an annotation to record the phone number of the person responsible for a pod. Annotations look like this:
+These are key-value pairs used to attach **non-identifying** metadata to objects. However, unlike labels, annotations are not generally meant for querying or applying operations to a subset of Kubernetes objects. Annotations look like this:
 
 ```
 "metadata": {
