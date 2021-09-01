@@ -87,14 +87,14 @@ This command runs kubectl delete on all the returned objects that have the label
 
 Follow these eight essential best practice recommendations to avoid common labeling mistakes:
 
-1. Learn The Syntax Properly
-2. Know the Label Selection Methods
-3. Use Recommended Labels
-4. Create Organization-Wide Label Naming Conventions
-5. Include Required Labels in Pod Templates
-6. Label Extensively
-7. Label Cross-Cutting Concerns
-8. Automate Labeling
+1. [Learn the Syntax Properly](#1-learn-the-syntax-properly)
+2. [Know the Label Selection Methods](#2-know-the-label-selection-methods)
+3. [Use Recommended Labels](#3-use-recommended-labels)
+4. [Create Organization-Wide Label Naming Conventions](#4-create-organization-wide-label-naming-conventions)
+5. [Include Required Labels in Pod Templates](#5-include-required-labels-in-pod-templates)
+6. [Label Extensively](#6-label-extensively)
+7. [Label Cross-Cutting Concerns](#7-label-cross-cutting-concerns)
+8. [Automate Labeling](#8-automate-labeling)
 
 
 ### 1. Learn the Syntax Properly
@@ -124,9 +124,6 @@ Kubernetes provides two ways of selecting objects with labels: *equality* and *s
 
 - **Equality**: You can select objects which are equal or not equal to one or more label values. You can have multiple selectors separated by commas, and all conditions must be met for a resource to match this selector. As of part of this syntax, = and == signify equality, while != signifies inequality. For example, you can select `"environment=dev,release=nightly"` to get the resources that have **both** labels attached.
 - **Set**: Allow selection according to multiple values. A set is similar to the `IN` keyword in SQL. For example, `"environment in (dev,uat)"` will select both dev and uat labeled resources. The supported operators are "in", "notin", and "exists."
-
-## TODO: label selectors caption
-![Label selectors allow querying different k8s objects via equality and set selection and operating on them.](/assets/images/kubernetes-labels.png)
 
 {% include figure image_path="/assets/images/kubernetes-labels.png" alt="Visual representation of label selection" caption="Label selectors allow querying different k8s objects via equality and set selection and operating on them." %}
 
