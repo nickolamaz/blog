@@ -22,7 +22,7 @@ This article will explore the use of GPUs in Kubernetes, outline the key metrics
 
 ## Requesting GPUs
 
-Although the syntax for requests and limits is similar to that of CPUs, Kubernetes does not inherently have the ability to schedule GPU resources. To handle the `nvidia.com/gpu`resource, the [nvidia-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) DaemonSet must be running. It is possible this DaemotSet is installed by default—you can check by running *kubectl get ds -A*. On a node with a GPU, run `kubectl describe node <gpu-node-name>`and check if the `nvidia.com/gpu` resource is allocable: 
+Although the syntax for requests and limits is similar to that of CPUs, Kubernetes does not inherently have the ability to schedule GPU resources. To handle the `nvidia.com/gpu`resource, the [nvidia-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) DaemonSet must be running. It is possible this DaemonSet is installed by default—you can check by running *kubectl get ds -A*. On a node with a GPU, run `kubectl describe node <gpu-node-name>`and check if the `nvidia.com/gpu` resource is allocable: 
 
 ```
 Capacity:
@@ -111,7 +111,7 @@ Then, install the GPU operator using:
 helm install --wait --generate-name nvidia/gpu-operator -n kube-system --set driver.enabled=false --set toolkit.enabled=false --debug
 ```
 
-The GPU operator and dependent pods in the `gpu-operator-resources` namespace should all initialize. Once this is done, check if metrics are being emitted by port-forwarding into the metrics exporter by getting the pod name and port-forwarding to it:
+The GPU operator and dependent pods in the `gpu-operator-resources` namespace should all initialize. Once this is done, check if metrics are being emitted by port forwarding into the metrics exporter by getting the pod name and port forwarding to it:
 
 ```
 kubectl get pods -n gpu-operator-resources -l app=nvidia-dcgm-exporter
@@ -180,13 +180,13 @@ And navigating to `localhost:8080/metrics`
 
 ## Conclusion
 
-GPU acceleration is a rapidly evolving field within Kubernetes. With the GPU Operator emitting utilization metrics, you can leverage this data to perform more robust operations such as cost analysis using [Kubecost](https://www.kubecost.com/).
+GPU acceleration is a rapidly evolving field within Kubernetes. With the GPU Operator emitting utilization metrics, you can leverage this data to perform more robust operations like cost analysis using [Kubecost](https://www.kubecost.com/).
 
 Kubecost integrates with NVIDIA DCGM metrics to offer further insight into GPU-accelerated workloads, including cost visibility and identification of overprovisioned GPU resources. To get started, refer to [https://www.kubecost.com/install.html](https://www.kubecost.com/install.html).
 
 ## Notes
 
-The state of NVIDIA GPU metrics and monitoring in Kubernetes is rapidly changing and often not well documented, both in an official capacity as well as on other common troubleshooting channels (GitHub, StackOverflow). This post is written to help users set up the software needed to use these metrics. To that end, included below is a list of some of the issues I faced while attempting this for the first time, as well as the solutions I found (if any). Hopefully, this will be a helpful resource should you come across them.
+The state of NVIDIA GPU metrics and monitoring in Kubernetes is rapidly changing and often not well documented, both in an official capacity as well as on other common troubleshooting channels (GitHub, StackOverflow). This post is written to help users set up the software needed to use these metrics. To that end, I have included a list of some of the issues I faced.
 
 * Tutorials online often feature outdated information. With how quickly these tools are changed, this can mean problems arising out of otherwise very clear install processes. For example, the [NVIDIA GPU telemetry guide for Kubernetes](https://docs.nvidia.com/datacenter/cloud-native/kubernetes/dcgme2e.html) at the time of writing asks to observe `DCGM_FI_DEV_GPU_UTIL` to verify the dcgm is working, despite it being disabled by default. 
 
