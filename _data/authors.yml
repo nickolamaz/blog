@@ -30,3 +30,18 @@ Michael Dresser and Alex Thilen:
     - label: "Alex Thilen"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alex-thilen-82b83b7a/"
+
+Kaelan Patel:
+  name: "Kaelan Patel"
+  avatar: "/assets/images/kubecost-mark.png"
+  bio: "Engineer at Kubecost"
+  links:
+    - label: "Kubecost site"
+      icon: "fas fa-fw fa-link"
+      url: "https://kubecost.com"
+    - label: "Kubecost GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kubecost"
+    - label: "kaelanspatel"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kaelanspatel"
