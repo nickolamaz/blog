@@ -1,6 +1,6 @@
 ---
 title: "Optimizing Kubernetes applications with Kubecost and Spinnaker"
-description: "..."
+description: "Using Kubecost and Spinnaker, teams can achieve real-time cost visibility—and automatically apply insights to continuously reduce Kubernetes costs as they deploy software releases."
 date: 2021-10-07T8:00:00-04:00
 canonical_url: "https://blog.kubecost.com/blog/spinnaker-kubecost-integration"
 classes: wide
