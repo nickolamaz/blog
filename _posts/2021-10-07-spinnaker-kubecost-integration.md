@@ -65,11 +65,13 @@ To set up the Kubecost and Spinnaker integration, follow the below installation 
 
 * Give it a go, and let us know what you think! Kubecost’s support is here to take questions and feedback in [Slack](https://join.slack.com/t/kubecost/shared_invite/zt-6gkdgzdf-rMI1qAky4t6GkDMiIjpEzw) and [email](mailto:support@kubecost.com).
 
-For more information and to view live demos of this integration, go here:
+For more information and to view live demos of this integration, check these videos out:
 
-* [Video: Demo of Kubecost + Spinnaker integration in action](https://www.youtube.com/watch?v=kU02PWyx9Go) 
+### Demo of Kubecost + Spinnaker integration in action
+{% include video id="kU02PWyx9Go" provider="youtube" %}
 
-* [Video: Spinnaker Workshop: Cost Optimization with Kubecost’s founders](https://www.youtube.com/watch?v=OZ_V42nWans) 
+### Spinnaker Workshop: Cost Optimization with Kubecost’s founders
+{% include video id="OZ_V42nWans" provider="youtube" %}
 
 ## Conclusion
 
