@@ -43,7 +43,7 @@ To integrate Kubecost and Spinnaker, we create a custom webhook that calls the K
 
 To set up the Kubecost and Spinnaker integration, follow the below installation steps:
 
-* If you don’t already have it enabled, install Armory
+* If you don’t already have it, install Spinnaker
 
 * [Install Kubecost in minutes](https://www.kubecost.com/install#show-instructions)
 
