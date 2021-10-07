@@ -45,3 +45,18 @@ Kaelan Patel:
     - label: "kaelanspatel"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kaelanspatel"
+
+Alex Thilen:
+  name: "Alex Thilen"
+  avatar: "/assets/images/kubecost-mark.png"
+  bio: "Alex is Kubecost's Head of Business Development."
+  links:
+    - label: "Kubecost site"
+      icon: "fas fa-fw fa-link"
+      url: "https://kubecost.com"
+    - label: "Kubecost GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kubecost"
+    - label: "Alex Thilen"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/alex-thilen-82b83b7a/"
