@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes cost visibility and analytics with Kubecost and Rafay"
 description: "Rafay’s Kubecost recipe allows users to simplify and automate deployment of Kubecost across new and existing clusters, giving teams powerful visibility into Kubernetes spend."
-date: 2021-11-17T8:00:00-04:00
+date: 2021-11-17T08:00:00-04:00
 canonical_url: "https://blog.kubecost.com/blog/kubecost-recipe-rafay"
 classes: wide
 categories:
