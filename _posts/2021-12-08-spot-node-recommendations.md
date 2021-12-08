@@ -18,15 +18,15 @@ Running Kubernetes in the cloud isn’t cheap, and cloud providers understand th
 
 First, Kubecost analyzes the workloads running on your cluster to determine their spot-readiness using the Spot Checklist feature. We’ve written in detail in a [previous post](https://blog.kubecost.com/blog/spot-readiness/) about how the Spot Checklist works. At a high level, it uses information from the Kubernetes API and heuristics to identify workloads that are spot ready.
 
-![diagram of splitting workloads by readiness](assets/images/2021-12-08-spot-cluster-sizing/workloadanalysis.png)
+![diagram of splitting workloads by readiness](/assets/images/2021-12-08-spot-cluster-sizing/workloadanalysis.png)
 
 ## Suggest cluster configuration to support spot-ready and non-spot-ready workloads
 
 Once Kubecost has identified which workloads on your cluster can run on spot, it’s time to optimize your cluster configuration. Kubecost can leverage its [extensive knowledge](https://github.com/kubecost/docs/blob/master/allocation.md) of (1) your workloads’ usage patterns and (2) your cloud provider’s node capacities and pricing to suggest the least expensive node types and quantities to support both your spot-ready and non spot-ready workloads. If you have specific constraints you want to impose on this process, like minimum node counts for node pools, a certain resource overhead to have available on all nodes, or a restriction on using shared-core machine types, you can configure these in the UI!! Your overall savings for adopting the new cluster configuration is calculated by comparing the current run-rate of your cluster’s nodes and with the approximate run-rate of the new configuration. For a more in-depth look at how we determine cluster configuration, see our [official documentation](https://guide.kubecost.com/hc/en-us/articles/4412353032599-Spot-Cluster-Sizing).
 
-![diagram of new node configuration](assets/images/2021-12-08-spot-cluster-sizing/newnodeconfiguration.png)
+![diagram of new node configuration](/assets/images/2021-12-08-spot-cluster-sizing/newnodeconfiguration.png)
 
-![screenshot of spot cluster sizing web UI](assets/images/2021-12-08-spot-cluster-sizing/web-ui-screenshot.png)
+![screenshot of spot cluster sizing web UI](/assets/images/2021-12-08-spot-cluster-sizing/web-ui-screenshot.png)
 
 ## Adopting the recommended configuration
 
