@@ -23,7 +23,14 @@ tags:
 Write your posts in normal Markdown. If you need images, put them in `assets/images` and link them
 in the Markdown.
 
-If you'd like to attribute the post to an author, add an entry to `_data/authors.yml` with a name (e.g. `Foo Bar`) and then add `author: Foo Bar` to the metadata header section of the post.
+If you'd like to attribute the post to an author, add an entry to `_data/authors.yml` with a name (e.g. `Foo Bar`) and then add `author: Foo Bar` to the metadata header section of the post. If you don't want to attribute it, leave off the `author:` field and it will be authored by Kubecost.
+
+If you need a captioned image, the Jekyll theme we use requires this syntax (instead of the default Markdown):
+
+``` sh
+{% include figure image_path="/assets/images/yourimage.png" alt="Image alt text" caption="Image caption" %}
+```
+
 
 ## Testing Locally
 
