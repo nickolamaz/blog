@@ -13,7 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Home
+title: Kubecost Blog
+logo: "/assets/images/kubecost-mark.png"
+subtitle: "New Kubecost features and the latest in Kubernetes technology."
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -64,9 +66,9 @@ analytics:
     tracking_id: "UA-129422090-2"
 
 author:
-  name   : "Kubecost blog"
+  name   : "Written by Kubecost"
   avatar : "/assets/images/kubecost-mark.png"
-  bio    : "New Kubecost features and the latest in Kubernetes technology."
+  # bio    : "New Kubecost features and the latest in Kubernetes technology."
   links:
     - label: "Kubecost site"
       icon: "fas fa-fw fa-link"
@@ -86,6 +88,19 @@ footer:
 
 defaults:
   # _posts
+  - scope:
+      path: ""
+    values:
+      # This sets additional sidebar content for _all_ pages. This is a great
+      # way to get a "what is Kubecost?" blurb on all pages without being too
+      # intrusive.
+      # See: https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-content
+      sidebar:
+        -
+          # title: "What is Kubecost?"
+          text: >
+            Kubecost is a cost monitoring and management tool for Kubernetes.
+
   - scope:
       path: ""
       type: posts
