@@ -70,7 +70,7 @@ author:
   avatar : "/assets/images/kubecost-mark.png"
   bio    : "" # Empty bio string helps with spacing
   links:
-    - label: "Kubecost site"
+    - label: "kubecost.com"
       icon: "fas fa-fw fa-link"
       url: "https://kubecost.com"
     - label: "GitHub"
@@ -79,7 +79,7 @@ author:
 
 footer:
   links:
-    - label: "Kubecost site"
+    - label: "kubecost.com"
       icon: "fas fa-fw fa-link"
       url: "https://kubecost.com"
     - label: "GitHub"
