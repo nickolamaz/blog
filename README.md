@@ -34,6 +34,25 @@ If you need a captioned image, the Jekyll theme we use requires this syntax (ins
 
 ## Testing Locally
 
+### MacOS
+
+Make sure you have [RVM](https://rvm.io/) installed:
+```
+curl -sSL https://get.rvm.io | bash -s stable
+```
+
+Then run this command to get a local instance of the blog at [http://localhost:4000](http://localhost:4000):
+```sh
+rvm install 2.7.3 && \
+    rvm use 2.7.3 && \
+    gem install bundler && \
+    bundle install && \
+    bundle exec jekyll serve
+```
+
+
+### Generic
+
 Make sure you have Ruby 2.7 installed (GitHub pages apparently doesn't work with Ruby 3.0 as of 2021-08-24).
 
 Install `bundle`
