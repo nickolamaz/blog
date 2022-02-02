@@ -3,7 +3,7 @@ Michael Dresser:
   avatar: "/assets/images/kubecost-mark.png"
   bio: "Engineer at Kubecost"
   links:
-    - label: "Kubecost site"
+    - label: "kubecost.com"
       icon: "fas fa-fw fa-link"
       url: "https://kubecost.com"
     - label: "Kubecost GitHub"
@@ -18,7 +18,7 @@ Michael Dresser and Alex Thilen:
   avatar: "/assets/images/kubecost-mark.png"
   bio: "Michael is an engineer at Kubecost. Alex is our Head of Business Development."
   links:
-    - label: "Kubecost site"
+    - label: "kubecost.com"
       icon: "fas fa-fw fa-link"
       url: "https://kubecost.com"
     - label: "Kubecost GitHub"
@@ -36,7 +36,7 @@ Kaelan Patel:
   avatar: "/assets/images/kubecost-mark.png"
   bio: "Engineer at Kubecost"
   links:
-    - label: "Kubecost site"
+    - label: "kubecost.com"
       icon: "fas fa-fw fa-link"
       url: "https://kubecost.com"
     - label: "Kubecost GitHub"
@@ -51,7 +51,7 @@ Alex Thilen:
   avatar: "/assets/images/kubecost-mark.png"
   bio: "Alex is Kubecost's Head of Business Development."
   links:
-    - label: "Kubecost site"
+    - label: "kubecost.com"
       icon: "fas fa-fw fa-link"
       url: "https://kubecost.com"
     - label: "Kubecost GitHub"
