@@ -99,7 +99,7 @@ defaults:
         -
           # title: "What is Kubecost?"
           text: >
-            Kubecost is a cost monitoring and management tool for Kubernetes.
+            Kubecost is a cost monitoring and management tool for Kubernetes. We help our users track and save on billions of dollars of spend. Kubecost runs anywhere K8s runs; [install today](https://kubecost.com/install)!
 
   - scope:
       path: ""
