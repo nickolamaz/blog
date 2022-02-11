@@ -69,7 +69,7 @@ analytics:
     tracking_id: "UA-129422090-2"
 
 author:
-  name   : "Written by Kubecost"
+  name   : "Kubecost blog"
   # avatar : "/assets/images/kubecost-mark.png"
   bio    : "" # Empty bio string helps with spacing
   links:
