@@ -13,9 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kubecost Blog
-logo: "/assets/images/kubecost-mark.png"
-subtitle: "New Kubecost features and the latest in Kubernetes technology."
+
+# This logo includes "Kubecost" so we keep the title blank for consistent
+# styling.
+title: ""
+logo: "/assets/images/kubecost_logo@2x.png"
+# subtitle: "New Kubecost features and the latest in Kubernetes technology."
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
