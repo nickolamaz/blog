@@ -67,7 +67,7 @@ analytics:
 
 author:
   name   : "Written by Kubecost"
-  avatar : "/assets/images/kubecost-mark.png"
+  # avatar : "/assets/images/kubecost-mark.png"
   bio    : "" # Empty bio string helps with spacing
   links:
     - label: "kubecost.com"

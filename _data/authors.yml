@@ -1,6 +1,6 @@
 Michael Dresser:
   name: "Michael Dresser"
-  avatar: "/assets/images/kubecost-mark.png"
+  # avatar: "/assets/images/kubecost-mark.png"
   bio: "Engineer at Kubecost"
   links:
     - label: "kubecost.com"
@@ -15,7 +15,7 @@ Michael Dresser:
 
 Michael Dresser and Alex Thilen:
   name: "Michael Dresser and Alex Thilen"
-  avatar: "/assets/images/kubecost-mark.png"
+  # avatar: "/assets/images/kubecost-mark.png"
   bio: "Michael is an engineer at Kubecost. Alex is our Head of Business Development."
   links:
     - label: "kubecost.com"
@@ -33,7 +33,7 @@ Michael Dresser and Alex Thilen:
 
 Kaelan Patel:
   name: "Kaelan Patel"
-  avatar: "/assets/images/kubecost-mark.png"
+  # avatar: "/assets/images/kubecost-mark.png"
   bio: "Engineer at Kubecost"
   links:
     - label: "kubecost.com"
@@ -48,7 +48,7 @@ Kaelan Patel:
 
 Alex Thilen:
   name: "Alex Thilen"
-  avatar: "/assets/images/kubecost-mark.png"
+  # avatar: "/assets/images/kubecost-mark.png"
   bio: "Alex is Kubecost's Head of Business Development."
   links:
     - label: "kubecost.com"
