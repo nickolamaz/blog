@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Reference for what's going on in this file:
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
+// NB: "Before any @import lines"
+//
+// https://github.com/mmistakes/minimal-mistakes/discussions/1219#discussioncomment-172845
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#font-stacks
+
+// Our custom font choices are imported in the <head> by using the built-in
+// custom head. See /_includes/head/custom.html
+$sans-serif : "Inter", sans-serif;
+$monospace  : "Space Mono", monospace;
+
+$global-font-family : $sans-serif;
+$header-font-family : "Space Grotesk", $sans-serif;
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
