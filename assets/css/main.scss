@@ -14,7 +14,7 @@
 $sans-serif : "Inter", sans-serif;
 $monospace  : "Space Mono", monospace;
 
-$global-font-family : "Inter", $sans-serif;
+$global-font-family : $sans-serif;
 $header-font-family : "Space Grotesk", $sans-serif;
 
 @charset "utf-8";
