@@ -27,12 +27,9 @@ We’ve built an active open source community around Kubecost and we ourselves c
 
 Webb & Ajay, on behalf of the Kubecost team
 
-**Want to learn more?**
+## Want to learn more?
 
 * Get started using Kubecost—install the community version: [kubecost.com/install.html](https://www.kubecost.com/install.html) 
-
 * Interested in joining the team? Review our job openings here: [jobs.kubecost.com](http://jobs.kubecost.com/)
-
 * Join & contribute to our open source community! Learn how at [contribute.kubecost.io](https://contribute.kubecost.io)
-
 * Reach out to us directly: [team@kubecost.com](mailto:team@kubecost.com) or [hello.kubecost.io](http://hello.kubecost.io)
