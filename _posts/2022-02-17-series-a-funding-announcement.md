@@ -10,6 +10,7 @@ tags:
   - Kubecost
 ---
 
+
 As the next major milestone in our journey, we are proud to share that we've raised $25 million in Series A funding led by [Coatue Management](https://www.coatue.com/) to help developers optimize and run Kubernetes at scale. We’re also excited to announce that our lead investor at Coatue, David Cahn, will join our board of directors. He brings a wealth of expertise from investing in now-public companies like UiPath, Confluent, Snowflake, and Gitlab, as well as leaders in the cloud-native space such as Starburst, Snyk, and Databricks. Our angel investors in this round include Snowflake CFO Michael Scarpelli and Looker co-founder Ben Porterfield, as well as our existing investors First Round and Afore Capital. We're thrilled to be partnering with them, alongside other great investors joining our Series A, as we continue to scale our product and company.
 
 ![Kubecost founders Webb and Ajay](/assets/images/series-a-funding-announcement/image_0.png)
