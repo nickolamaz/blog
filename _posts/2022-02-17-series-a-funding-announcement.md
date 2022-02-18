@@ -1,7 +1,7 @@
 ---
 title: "Announcing Our $25 Million Series A from Coatue to Grow Developer-Centric Community Around Kubernetes Cost Management"
 description: "As the next major milestone in our journey, we are proud to share that we’ve raised $25 million in Series A funding led by Coatue Management to help developers optimize and run Kubernetes at scale."
-date: 2022-02-17T08:00:00-04:00
+date: 2022-02-18T08:00:00-05:00
 canonical_url: "https://blog.kubecost.com/blog/series-a-funding-announcement"
 classes: wide
 categories:
