@@ -34,4 +34,4 @@ Webb & Ajay, on behalf of the Kubecost team
 
 * Join & contribute to our open source community! Learn how at [contribute.kubecost.io](https://contribute.kubecost.io)
 
-* Reach out to us directly: [team@kubecost.com](mailto:team@kubecost.com) or [hello.kubecost.io](hello.kubecost.io)
+* Reach out to us directly: [team@kubecost.com](mailto:team@kubecost.com) or [hello.kubecost.io](http://hello.kubecost.io)
