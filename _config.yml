@@ -62,6 +62,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag # To set SEO metadata like the "og:image"
 
 analytics:
   provider: "google-gtag"
