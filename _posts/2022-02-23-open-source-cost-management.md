@@ -10,6 +10,7 @@ tags:
   - Kubernetes
   - Kubecost
   - cost monitoring
+  - open source
 author: Webb Brown
 ---
 
