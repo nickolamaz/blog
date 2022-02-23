@@ -60,3 +60,17 @@ Alex Thilen:
     - label: "Alex Thilen"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alex-thilen-82b83b7a/"
+
+Webb Brown:
+  name: "Webb Brown"
+  bio: "CEO of Kubecost"
+  links:
+    - label: "kubecost.com"
+      icon: "fas fa-fw fa-link"
+      url: "https://kubecost.com"
+    - label: "Kubecost GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kubecost"
+    - label: "Webb Brown"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/webbbrown/"
