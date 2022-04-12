@@ -74,3 +74,20 @@ Webb Brown:
     - label: "Webb Brown"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/webbbrown/"
+
+Neal Ormsbee and Alex Collins:
+  name: "Neal Ormsbee and Alex Collins"
+  bio: "Neal is an engineer at Kubecost. Alex is a principal engineer at Intuit."
+  links:
+    - label: "kubecost.com"
+      icon: "fas fa-fw fa-link"
+      url: "https://kubecost.com"
+    - label: "Kubecost GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kubecost"
+    - label: "Neal Ormsbee"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/neal-ormsbee-46aa3037/"
+    - label: "Alex Collins"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/alexecollins/"
