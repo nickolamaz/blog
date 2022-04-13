@@ -54,7 +54,7 @@ After installation, continue running Argo Workflows as normal. Kubecost will beg
 
 ## Creating a workflow
 
-For this post, we’ll create a `WorkflowTemplate` CRD, defining an Argo Workflow. Under the hood, we’ll be using the [stress-ng](http://docker.io/polinux/stress-ng:latest) Docker container to create pods that consume resources, emulating some resource-intensive task.
+For this post, we’ll create a `WorkflowTemplate` CRD, defining an Argo Workflow. Under the hood, we’ll be using the [stress-ng](https://hub.docker.com/r/polinux/stress-ng) Docker container to create pods that consume resources, emulating some resource-intensive task.
 
 This workflow has only a single stage: stress. It runs the stress-ng image with inputs that can be given to Argo when the workflow is launched.
 
