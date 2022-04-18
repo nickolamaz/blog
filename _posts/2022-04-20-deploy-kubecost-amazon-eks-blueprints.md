@@ -1,7 +1,7 @@
 ---
 title: "Easily deploy Kubecost on AWS using Amazon EKS Blueprints"
 description: "Learn how to easily deploy Kubecost on AWS using Amazon EKS Blueprints in this step by step blog."
-date: 2022-04-17T08:00:00-04:00
+date: 2022-04-20T08:00:00-04:00
 canonical_url: "https://blog.kubecost.com/blog/deploy-kubecost-amazon-eks-blueprints"
 classes: wide
 categories:
