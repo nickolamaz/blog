@@ -145,6 +145,6 @@ For even richer Kubecost data, consider adding Prometheus recording rules to Gra
 
 ## We’re here to help!
 
-For more information and troubleshooting, check out the [Kubecost documentation](https://docs.kubecost.com) and [Grafana Cloud documentation](https://grafana.com/docs/grafana-cloud/).
+For more information and troubleshooting, check out the [Kubecost documentation](https://guide.kubecost.com/hc/en-us/articles/5699967551639-Grafana-Cloud-Integration-for-Kubecost) and [Grafana Cloud documentation](https://grafana.com/docs/grafana-cloud/).
 
 [Join us on Slack](https://join.slack.com/t/kubecost/shared_invite/enQtNTA2MjQ1NDUyODE5LWFjYzIzNWE4MDkzMmUyZGU4NjkwMzMyMjIyM2E0NGNmYjExZjBiNjk1YzY5ZDI0ZTNhZDg4NjlkMGRkYzFlZTU) for any other help, and general Kubernetes and Cloud Cost optimization banter!
