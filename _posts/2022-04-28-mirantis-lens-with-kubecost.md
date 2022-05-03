@@ -17,13 +17,15 @@ author: Andrew Dawson
 
 Using the Lens IDE makes installing, updating, and troubleshooting your Kubecost Helm release extremely simple. Follow the guide below to set up Kubecost using Lens IDE.
 
-![image alt text](/assets/images/lens-with-kubecost/kubecost-lens-1.png)
+![Kubecost and Lens](/assets/images/lens-with-kubecost/kubecost-lens-11.png)
 
 # Kubecost + Lens IDE.
 
 When working with Kubecost and your Kubernetes cluster as a whole, visibility is key. Being able to quickly see how all your different objects are interacting with each other is key to being able to optimize your cluster. Although the command line is all-powerful, sometimes k8s developers want to interact with a simple graphical interface—that’s where [Lens, the Kubernetes Integrated Development Environment (IDE) by Mirantis](https://k8slens.dev/), comes in.
 
 Kubecost users connect their clusters under management within Lens, allowing for simple multi-cluster administration. Each cluster ‘workspace’ has its own built-in terminal set to the corrpospending kubeconfig entry, making it quick and easy to use the command line + the correct kubeconfig settings for that cluster. This can be especially useful for orginizations using [Kubecost Enterprise with multiple federated clusters](https://guide.kubecost.com/hc/en-us/articles/4407601809175-Kubecost-Enterprise-Features).
+
+![Lens Default Dashboard](/assets/images/lens-with-kubecost/kubecost-lens-1.png)
 
 ### Install + Manage Kubecost Enterprise via Helm Chart using Lens IDE
 
