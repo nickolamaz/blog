@@ -129,7 +129,7 @@ Kubecost will open on a randomized port - Copy the url from the URL bar and past
 
 You will now be able to access your cluster! Kubecost core version is free forever on one individual cluster per company, with 15 day metric retention. [Kubecost Enterprise](https://guide.kubecost.com/hc/en-us/articles/4407601809175-Kubecost-Enterprise-Features) provides federated views for multiple clusters, SSO, unlimited metrics, and dedicated support.
 
-![Access Kubecost dashboard](/assets/images/lens-with-kubecost/kubecost-lens-16.png)
+![Access Kubecost dashboard](/assets/images/lens-with-kubecost/kubecost-lens-17.png)
 
 ## We’re here to help!
 
