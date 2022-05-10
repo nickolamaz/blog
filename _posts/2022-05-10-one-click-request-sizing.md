@@ -1,7 +1,7 @@
 ---
 title: "Set optimal Kubernetes container requests in seconds using Kubecost"
 description: "Walk through Kubecost's new one-click request right-sizing feature."
-date: 2022-05-06T08:00:00-04:00
+date: 2022-05-11T08:00:00-04:00
 canonical_url: "https://blog.kubecost.com/blog/one-click-request-sizing"
 classes: wide
 categories:
