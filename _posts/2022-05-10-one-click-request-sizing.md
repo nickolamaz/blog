@@ -141,7 +141,7 @@ As we know, our NGINX Deployment is vastly overprovisioned because it isn't hand
 Because we've already filtered the recommendations down to the `rsizing` namespace, the implementation will only apply the filtered set of recommendations. Once we hit "Yes," we can check on the cluster status:
 
 ```
-→ k get pod -n rsizing                             NAME                                READY   STATUS        RESTARTS   AGE
+→ kubectl get pod -n rsizing                             NAME                                READY   STATUS        RESTARTS   AGE
 nginx-deployment-574cd8ff7f-5czgz   1/1     Running       0          16s
 nginx-deployment-574cd8ff7f-srt8j   1/1     Running       0          9s
 nginx-deployment-bd6c697bf-kdfvw    0/1     Terminating   0          53m
@@ -161,7 +161,7 @@ nginx-deployment-574cd8ff7f-srt8j	nginx	{"cpu":"10m","memory":"20971520"}
 Awesome! Kubecost has resized our container requests for us. And it hasn't just done it at the Pod level, requests have been resized (as you would expect) at the Deployment level:
 
 ```
-→ k get deploy -n rsizing nginx-deployment -o=jsonpath='{.spec.template.spec.containers[0].resources}' | jq
+→ kubectl get deploy -n rsizing nginx-deployment -o=jsonpath='{.spec.template.spec.containers[0].resources}' | jq
 {
   "requests": {
     "cpu": "10m",
