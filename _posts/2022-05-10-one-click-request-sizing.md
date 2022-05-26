@@ -161,7 +161,7 @@ nginx-deployment-574cd8ff7f-srt8j	nginx	{"cpu":"10m","memory":"20971520"}
 Awesome! Kubecost has resized our container requests for us. And it hasn't just done it at the Pod level, requests have been resized (as you would expect) at the Deployment level:
 
 ```
-→ k get deploy -n rsizing nginx-deployment -o=jsonpath='{.spec.template.spec.containers[0].resources}' | jq
+→ kubectl get deploy -n rsizing nginx-deployment -o=jsonpath='{.spec.template.spec.containers[0].resources}' | jq
 {
   "requests": {
     "cpu": "10m",
