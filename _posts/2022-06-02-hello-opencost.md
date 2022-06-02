@@ -1,11 +1,11 @@
 ---
 title: "Hello OpenCost—an industry-supported, open source cost monitoring standard for Kubernetes"
+description: "Kubecost and a founding community of contributors have launched OpenCost, an open source cost allocation and monitoring standard for teams using Kubernetes."
 date: 2022-06-02T08:34:30-04:00
 canonical_url: "http://blog.kubecost.com/blog/hello-opencost/"
 classes: wide
 categories:
   - blog
-
  tags:
   - cost monitoring
   - Kubecost
