@@ -29,6 +29,6 @@ The mission of OpenCost is to enable teams using Kubernetes to operate with a si
 
 Along with our fellow working group members, we have submitted the project for review as a Cloud Native Computing Foundation (CNCF) Sandbox project, and are currently in the sandbox project queue. We look forward to hearing feedback from the CNCF Technical Oversight Committee (TOC), and will continue to share updates on the process as they develop.
 
-[Get started by installing OpenCost today](https://github.com/kubecost/opencost/blob/develop/README.md%23getting-started), and let us know if you have any suggestions—we'd love to speak with you!
+[Get started by installing OpenCost today](https://github.com/kubecost/opencost/blob/develop/README.md#getting-started), and let us know if you have any suggestions—we'd love to speak with you!
 
 For more information about the launch, visit the [OpenCost blog](https://www.opencost.io/blog/introducing-opencost).
