@@ -27,7 +27,7 @@ Kubecost users can connect their clusters to Lens, allowing for simple multi-clu
 ![Lens Default Dashboard](/assets/images/lens-with-kubecost/kubecost-lens-1.png)
 
 
-### Install and manage Kubecost Enterprise via Helm Chart using Lens IDE
+### Install and manage Kubecost via Helm Chart using Lens IDE
 
 One of the benefits of Kubecost is our easy to manage [Helm chart](https://guide.kubecost.com/hc/en-us/articles/4407601821207-Installing-KubecostUsing). Lens makes installing, updating, and troubleshooting your Kubecost Helm release extremely simple. 
 
