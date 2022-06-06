@@ -19,8 +19,7 @@ author: Andrew Dawson
 
 We previously wrote about our initial integration with [Lens IDE](https://blog.kubecost.com/blog/lens-kubecost-extension/), which provides basic cost visualization in Lens. In this post, we'll show you how using the Lens IDE makes installing, updating, and troubleshooting your Kubecost Helm release extremely simple—and provide you with step-by-step instructions to set up Kubecost using Lens IDE.
 
-
-# Kubecost + Lens IDE
+## Kubecost + Lens IDE
 
 When working with Kubecost and your Kubernetes cluster as a whole, visibility is key. Being able to quickly see how different objects are interacting with each other is critical to optimizing your cluster. Although the command line is all-powerful, sometimes k8s developers want to interact with a simple graphical interface—that’s where [Lens, the Kubernetes Integrated Development Environment (IDE) by Mirantis](https://k8slens.dev/), comes in.
 
