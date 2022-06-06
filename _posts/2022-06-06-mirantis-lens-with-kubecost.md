@@ -14,10 +14,9 @@ tags:
   - Helm
 author: Andrew Dawson
 ---
+We previously wrote about our initial integration with Lens IDE, which provides basic cost visualization in Lens. In this post, we'll show you how using the Lens IDE makes installing, updating, and troubleshooting your Kubecost Helm release extremely simple—and provide you with step-by-step instructions to set up Kubecost using Lens IDE.
 
 ![Kubecost and Lens](/assets/images/lens-with-kubecost/kubecost-lens-11.png)
-
-We previously wrote about our initial integration with [Lens IDE](https://blog.kubecost.com/blog/lens-kubecost-extension/), which provides basic cost visualization in Lens. In this post, we'll show you how using the Lens IDE makes installing, updating, and troubleshooting your Kubecost Helm release extremely simple—and provide you with step-by-step instructions to set up Kubecost using Lens IDE.
 
 ## Kubecost + Lens IDE
 
