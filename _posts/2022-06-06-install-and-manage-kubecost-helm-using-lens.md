@@ -32,12 +32,12 @@ Kubecost users can connect their clusters to Lens, allowing for simple multi-clu
 One of the benefits of Kubecost is our easy to manage [Helm chart](https://guide.kubecost.com/hc/en-us/articles/4407601821207-Installing-KubecostUsing). Lens makes installing, updating, and troubleshooting your Kubecost Helm release extremely simple. 
 
 
-### Simplify Kubecost port forwarding, logs, and pod shells
+### Simplify Kubecost pod logs and shells
 
 Using Lens, users can verify all Kubecost-related pods are running and see any errors easily using the cluster dashboard and specifying your Kubecost namespace. This is helpful when deploying Durable Storage or troubleshooting a custom integration or settings change. Lens also allows Kubecost users to get to the cost model container logs and container shell with a few clicks.
 
 
-### Port-Forward without the CLI command
+### Port-Forward without the CLI
 
 Lens allows for simple and secure access to Kubecost services via port forwarding. For those who do not want to expose Kubecost via Ingress or Load Balancer, Lens makes accessing via Service Port Forwarding very easy. Team members with access to the cluster through Lens can access Kubecost securely through the "Services" section. 
 
