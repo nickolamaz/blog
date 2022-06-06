@@ -91,3 +91,17 @@ Neal Ormsbee and Alex Collins:
     - label: "Alex Collins"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alexecollins/"
+      
+Andrew Dawson:
+  name: "Andrew Dawson"
+  bio: "Solutions Engineer at Kubecost."
+  links:
+    - label: "kubecost.com"
+      icon: "fas fa-fw fa-link"
+      url: "https://kubecost.com"
+    - label: "Kubecost GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kubecost"
+    - label: "Andrew Dawson"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/adawson10/"
