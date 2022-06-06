@@ -1,7 +1,7 @@
 ---
 title: "Install and manage your Kubecost Helm Chart using Lens IDE"
 description: "Learn how you can use the Lens IDE to simplify Kubernetes cost monitoring—easily install, update, and troubleshoot Kubecost on any  cluster."
-date: 2022-05-10T08:00:00-04:00
+date: 2022-06-06T08:00:00-04:00
 canonical_url: "https://blog.kubecost.com/blog/install-and-manage-kubecost-helm-using-lens"
 classes: wide
 categories:
