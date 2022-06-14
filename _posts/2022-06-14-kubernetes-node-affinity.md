@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Node Affinity: Examples & Instructions"
+title: "Kubernetes node affinity: examples & instructions"
 description: " Learn how Kubernetes node and affinity and anti-affinity work and how they compare to taints and tolerations and follow examples and instructions for implementation."
 date: 2022-06-14T10:00:00-06:00
 canonical_url: "https://blog.kubecost.com/blog/kubernetes-node-affinity"
@@ -23,7 +23,7 @@ This article will review scheduling basics, Kubernetes node affinity and anti-af
 
 Kubernetes scheduling is the process of selecting a suitable node to run pods. 
 
-To understand Kubernetes node affinity, you first need to understand the basics of Kubernetes scheduling created to automate the process of pod placement. [kube-scheduler](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/) is the default scheduler in K8s, but administrators [can use custom schedulers](https://www.cncf.io/blog/2020/08/10/why-the-kubernetes-scheduler-is-not-enough-for-your-ai-workloads/) too. 
+To understand Kubernetes node affinity, you first need to understand the basics of Kubernetes scheduling created to automate the process of pod placement. [Kube-scheduler](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/) is the default scheduler in K8s, but administrators [can use custom schedulers](https://www.cncf.io/blog/2020/08/10/why-the-kubernetes-scheduler-is-not-enough-for-your-ai-workloads/), too. 
 
 The most basic approach to scheduling is through the nodeSelector available in Kubernetes since version 1.0. With nodeSelector, users can define label-key value pairs in nodes and use these labels to match when scheduling pods.
 
@@ -33,7 +33,7 @@ You can specify the nodeSelector in the PodSpec using a key-value pair. If the k
 kubectl label nodes <node-name> <key>=<value>
 ```
 
-The PodSpec for the nodeSelector is as follows;
+The PodSpec for the nodeSelector is as follows.
 
 ```yaml
 spec:
@@ -44,11 +44,11 @@ spec:
     <key>: <value>
 ```
 
-Using the nodeSelector is the recommended way to match pods with nodes for simple use cases in small Kubernetes clusters. However, this method quickly becomes inadequate to facilitate complex use-cases and larger K8s clusters. With Kubernetes affinity, administrators gain greater control over the pod scheduling process.
+Using the nodeSelector is the recommended way to match pods with nodes for simple use cases in small Kubernetes clusters. However, this method quickly becomes inadequate to facilitate complex use cases and larger K8s clusters. With Kubernetes affinity, administrators gain greater control over the pod scheduling process.
 
 ## What are Kubernetes affinity and anti-affinity?
 
-The affinity and anti-affinity features in Kubernetes provides administrators with more granular scheduling functionality.
+The affinity and anti-affinity features in Kubernetes provide administrators with more granular scheduling functionality.
 
 With affinity and anti-affinity, administrators can:
 
@@ -64,7 +64,7 @@ Kubernetes node affinity is a feature that enables administrators to match pods 
 
 It is similar to nodeSelector but provides more granular control over the selection process. Node affinity enables a conditional approach with logical operators in the matching process, while nodeSelector is limited to looking for exact label key-value pair matches. Node affinity is specified in the PodSpec using the nodeAffinity field in the affinity section.
 
-{% include figure image_path="/assets/images/2022-06-14-kubernetes-node-affinity/how-node-affinity-works.png" alt="Node affinity diagram" caption="How node Affinity Works" %}
+{% include figure image_path="/assets/images/2022-06-14-kubernetes-node-affinity/how-node-affinity-works.png" alt="Node affinity diagram" caption="How node affinity works" %}
 
 ### What are pod affinity and anti-affinity?
 
@@ -76,7 +76,7 @@ As the name suggests, pod anti-affinity simply offers the opposite functionality
 
 Pod affinity and anti-affinity are also specified within the affinity section using the podAffinity and podAntiAffinity fields in the PodSpec.
 
-{% include figure image_path="/assets/images/2022-06-14-kubernetes-node-affinity/how-pod-affinity-works.png" alt="Pod affinity diagram" caption="How pod Affinity Works" %}
+{% include figure image_path="/assets/images/2022-06-14-kubernetes-node-affinity/how-pod-affinity-works.png" alt="Pod affinity diagram" caption="How pod affinity works" %}
 
 ### Required vs. preferred rules
 
@@ -261,7 +261,7 @@ profiles:
                   - web
 ```
 
-### How to define pod affinity/nti-affinity
+### How to define pod affinity/anti-affinity
 
 Consider a use case where you want to schedule pods so all the pods on a node relate to the same application. You can do this with pod affinity. In fact, pod affinity is the preferred way to co-locate pods.
 
@@ -386,4 +386,4 @@ spec:
 
 ## Conclusion
 
-Affinity is one of the key features available in Kubernetes to customize and better control the pod scheduling process. Kubernetes pod and node affinity and anti-affinity rules enable cluster administrators to control where pods are allowed to be scheduled. Specifying multiple rules helps facilitate a wide range of scheduling configurations. Additionally, affinity can be combined with other features such as taints and tolerations to gain even greater control over the scheduling process. As a result, Kubernetes node affinity and anti-affinity, and pod affinity and anti-affinity are important tools in a Kubernetes administrator’s toolbox.
+Affinity is one of the key features available in Kubernetes to customize and better control the pod scheduling process. Kubernetes pod and node affinity and anti-affinity rules enable cluster administrators to control where pods are allowed to be scheduled. Specifying multiple rules helps facilitate a wide range of scheduling configurations. Additionally, affinity can be combined with other features such as taints and tolerations to gain even greater control over the scheduling process. As a result, Kubernetes node affinity and anti-affinity and pod affinity and anti-affinity are important tools in a Kubernetes administrator’s toolbox.
