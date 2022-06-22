@@ -1,13 +1,14 @@
 ---
 title: "Prometheus Grafana: Configuration & Query Examples"
-description: "Learn the best practices for installing and configuring Grafana to integrate with Prometheus and use PromQL to operators and functions to query its database."
+description: "Learn the best practices for installing and configuring Grafana to integrate with Prometheus and use PromQL operators and functions to query its database."
 date: 2022-06-20T10:00:00-06:00
 canonical_url: "https://blog.kubecost.com/blog/prometheus-grafana"
 classes: wide
 categories:
   - blog
 tags:
-  - Prometheus Grafana
+  - Prometheus
+  - Grafana
 ---
 
 A robust monitoring and alerting stack is crucial to service reliability. CNCF-graduated Prometheus is one of the most popular and powerful monitoring frameworks for cloud-native projects. It offers its own time-series database to store metrics, supports a variety of exporters for monitoring services like MySQL, Kubernetes, and Kafka, and includes granular and flexible alerting.
